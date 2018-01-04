@@ -1,0 +1,4 @@
+#! /usr/bin/sed -f
+s/SUBTABLE.productId/t_1.productId/g out.txt
+s/SUBTABLE.primary_key_id/t_1.primary_key_id/g out.txt
+
